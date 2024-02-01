@@ -40,11 +40,12 @@ export default function Header() {
         <button className="w-12 h-10 hidden sm:inline rounded-full p-2 bg-gray-200">
           <FaMoon />
         </button>
-        <Link to="/SignIn">
+        <Link to="/Sign-in">
           <Button gradientDuoTone="purpleToBlue" outline>
             Sign In
           </Button>
         </Link>
+
         <NavbarToggle />
       </div>
       <NavbarCollapse>
